@@ -3,7 +3,6 @@ package ch04_data_structure.array_and_list;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.nio.Buffer;
 import java.util.StringTokenizer;
 
 /**
@@ -32,7 +31,7 @@ import java.util.StringTokenizer;
  *     1 1 4 4    // 구간 합 (X1, Y1), (X2, Y2) 1번쨰 질의
  *
  */
-public class SumOfDigits2 {
+public class PrefixSum {
     public static void main(String[] args) throws  Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
